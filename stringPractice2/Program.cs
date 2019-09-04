@@ -22,6 +22,20 @@ namespace stringPractice2
             string lastname = Console.ReadLine();
 
             Console.WriteLine("Your last name is: " + lastname);
+
+            Console.WriteLine("Your whole name is: " + firstname.ToLower() + " " + lastname.ToLower());
+
+            if (firstname.Length > lastname.Length) Console.WriteLine("Your first name is longer than your last name.");
+            if (firstname.Length < lastname.Length) Console.WriteLine("Your last name is longer than your first name.");
+            if (firstname.Length == lastname.Length) Console.WriteLine("Your first name and last name are equalin length.");
+            {
+
+
+            }
+
+
+
+            
         }
     }
 }
